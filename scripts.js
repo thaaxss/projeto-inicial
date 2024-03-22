@@ -7,9 +7,10 @@ var email = document.getElementById("email");
 var telefone = document.getElementById("telefone");
 var cep = document.getElementById("cep");
 var logradouro = document.getElementById("logradouro");
-var numero =  
-var complemento = 
-var bairro =  
+var numero = document.getElementById("numero"); 
+var complemento = document.getElementById("complemento"); 
+var bairro = document.getElementById("bairro");
+var cidade = document.getElementById("cidade");  
 
 function alertar(){
     // alert("O nome inserido foi " + nome.value);
@@ -19,6 +20,11 @@ function alertar(){
              "\n Telefone: " + telefone.value;
              "\n CEP: " + cep.value;
              "\n Logradouro: " + logradouro.value;
+             "\n Numero: " + numero.value;
+             "\n Complemento: " + complemento.value;
+             "\n Bairro: " + bairro.value;
+             "\n Cidade: " + cidade.value;
+            
             
 
 }
